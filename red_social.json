@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        "Alice",
+        "Bob",
+        "Charlie",
+        "Diana",
+        "Eve",
+        "Frank",
+        "Grace",
+        "Heidi",
+        "Ivan",
+        "Judy",
+        "Marta"
+    ],
+    "edges": [
+        {
+            "source": "Alice",
+            "target": "Bob",
+            "weight": 2
+        },
+        {
+            "source": "Alice",
+            "target": "Charlie",
+            "weight": 3
+        },
+        {
+            "source": "Bob",
+            "target": "Diana",
+            "weight": 1
+        },
+        {
+            "source": "Charlie",
+            "target": "Grace",
+            "weight": 4
+        },
+        {
+            "source": "Diana",
+            "target": "Frank",
+            "weight": 3
+        },
+        {
+            "source": "Eve",
+            "target": "Frank",
+            "weight": 2
+        },
+        {
+            "source": "Eve",
+            "target": "Grace",
+            "weight": 1
+        },
+        {
+            "source": "Grace",
+            "target": "Heidi",
+            "weight": 3
+        },
+        {
+            "source": "Grace",
+            "target": "Marta",
+            "weight": 3
+        },
+        {
+            "source": "Heidi",
+            "target": "Ivan",
+            "weight": 2
+        },
+        {
+            "source": "Ivan",
+            "target": "Judy",
+            "weight": 1
+        },
+        {
+            "source": "Judy",
+            "target": "Marta",
+            "weight": 3
+        }
+    ]
+}
